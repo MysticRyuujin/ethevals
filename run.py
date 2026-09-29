@@ -19,7 +19,7 @@ import yaml
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EVALS_DIR = os.path.join(ROOT, "evals")
 RESULTS_DIR = os.path.join(ROOT, "results")
-PILLARS = ["concepts", "transactions", "building", "security"]
+PILLARS = ["concepts", "transactions", "building", "security", "rpc"]
 EXEC_TIMEOUT = 1800
 GOAL_TIMEOUT = 3600  # a goal eval installs and builds a project
 JUDGE_TIMEOUT = 600
