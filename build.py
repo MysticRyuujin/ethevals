@@ -14,7 +14,7 @@ PILLAR_META = {
     "security": ("Security", "Everyone catches reentrancy. Inflation attacks, stale oracles, signature replay, upgrade collisions, rounding, and the rest."),
 }
 
-MODEL_LABELS = {"fable-5.1": "Fable 5.1", "opus-5": "Opus 5", "sonnet-5": "Sonnet 5", "sonnet-5.5": "Sonnet 5.5", "haiku-4.5": "Haiku 4.5", "gpt-6-astra": "GPT-6 Astra",
+MODEL_LABELS = {"fable-5.1": "Fable 5.1", "opus-5": "Opus 5", "opus-5.5": "Opus 5.5", "sonnet-5": "Sonnet 5", "sonnet-5.5": "Sonnet 5.5", "haiku-4.5": "Haiku 4.5", "gpt-6-astra": "GPT-6 Astra",
                 "gpt-5.5": "GPT-5.5", "gpt-5.6": "GPT-5.6", "kimi-k2": "Kimi K2", "glm-5": "GLM-5", "deepseek-v4": "DeepSeek V4"}
 
 def label(name):
